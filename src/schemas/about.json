@@ -1,0 +1,11 @@
+{
+  "Main": {
+    "about_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "about text"
+      }
+    }
+  }
+}
