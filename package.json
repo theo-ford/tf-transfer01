@@ -50,18 +50,19 @@
     "screenfull": "^6.0.1",
     "styled-bootstrap-grid": "^3.1.0",
     "styled-components": "^5.2.0",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "prettier": "^1.19.1",
     "react-scripts": "latest",
     "source-map": "^0.8.0-beta.0",
-    "typescript": "^4.4.4"    
+    "typescript": "^4.4.4"
   },
   "resolutions": {
     "source-map": "^0.8.0-beta.0"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kieranstartup/studio-prismic-starter"
