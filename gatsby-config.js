@@ -25,6 +25,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
@@ -53,16 +54,10 @@ module.exports = {
       options: {
         repositoryName: `tf-transfer01`,
         accessToken: `${process.env.API_KEY}`,
-        // linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
+        linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
         schemas: {
-          // project: require("./src/schemas/project.json"),
-          // film_lead_project: require("./src/schemas/film_lead_project.json"),
-          // featured_projects: require("./src/schemas/featured_projects.json"),
           about: require("./src/schemas/about.json"),
-          // statement: require("./src/schemas/statement.json"),
-          // category: require("./src/schemas/category.json"),
-          // homepage: require("./src/schemas/homepage.json"),
-          // archive: require("./src/schemas/archive.json"),
+          // project: require("./src/schemas/project.json"),
         },
         imageImgixParams: {
           auto: "format",
