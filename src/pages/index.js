@@ -7,7 +7,7 @@ const Index = ({ data }) => {
   return (
     <>
       <p>TF Transfer 01 - GitHub Clone 2023.10.12 15:40 1.0</p>
-      <p>{data.prismicAbout.data.about_text.text}</p>
+      {/* <p>{data.prismicAbout.data.about_text.text}</p> */}
     </>
   );
 
@@ -16,15 +16,15 @@ const Index = ({ data }) => {
 
 export default withPrismicPreview(Index);
 
-export const query = graphql`
-  query MyQuery {
-    prismicAbout {
-      data {
-        about_text {
-          html
-          text
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query MyQuery {
+//     prismicAbout {
+//       data {
+//         about_text {
+//           html
+//           text
+//         }
+//       }
+//     }
+//   }
+// `;
