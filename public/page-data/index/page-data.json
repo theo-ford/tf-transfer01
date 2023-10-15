@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"pageContext":{}},"staticQueryHashes":[],"slicesMap":{}}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"prismicAbout":{"data":{"about_text":{"html":"<p>Hi my name is theo 3B</p>","text":"Hi my name is theo 3B"}}},"allPrismicProject":{"edges":[{"node":{"data":{"title":{"text":"Project 1"}},"uid":"project1"}}]}},"pageContext":{}},"staticQueryHashes":[],"slicesMap":{}}

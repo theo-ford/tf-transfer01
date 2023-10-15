@@ -57,7 +57,7 @@ module.exports = {
         linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
         schemas: {
           about: require("./src/schemas/about.json"),
-          // project: require("./src/schemas/project.json"),
+          project: require("./src/schemas/project.json"),
         },
         imageImgixParams: {
           auto: "format",
